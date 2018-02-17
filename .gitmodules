@@ -7,3 +7,6 @@
 [submodule "roles/java"]
 	path = roles/java
 	url = git@github.com:Pierre70/ansible-role-java.git
+[submodule "roles/mongodb"]
+	path = roles/mongodb
+	url = git@github.com:Pierre70/ansible-mongo.git

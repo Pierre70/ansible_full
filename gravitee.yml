@@ -1,0 +1,14 @@
+- hosts: localhost
+  vars:
+    jenkins_hostname: localhost
+  roles:
+    - role: elasticsearch
+    - role: geerlingguy.java
+    - role: mongodb
+      become: true
+    - role: gravitee
+      become: true
+    - role: k8s
+      become: true
+    - role: dockers
+      become: true

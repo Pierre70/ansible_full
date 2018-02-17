@@ -10,3 +10,9 @@
 [submodule "roles/mongodb"]
 	path = roles/mongodb
 	url = git@github.com:Pierre70/ansible-mongo.git
+[submodule "roles/elasticsearch"]
+	path = roles/elasticsearch
+	url = git@github.com:Pierre70/ansible-elasticsearch.git
+[submodule "roles/gravitee"]
+	path = roles/gravitee
+	url = git@github.com:Pierre70/ansible-gravitee.git
